@@ -1,3 +1,8 @@
+Question description:
+I do not know how the symbols __alt_instructions and __altinstr_replacement work?
+Do these symbols work throughout the operating system or do they simply replace instructions during system startup?
+
+below are the code related:
 \linux-3.10.0-693.2.2.el7\arch\x86\tools\relocs.c
 
 static const char * const sym_regex_kernel[S_NSYMTYPES] = {
